@@ -16,7 +16,8 @@ let addTask = await inquirer.prompt([
     {
         name: "delete",
         type: "confirm",
-        message: "Do you want to delete last todo"
+        message: "Do you want to delete last todo",
+        default: "false"
     },
     {
         name: "addMore",
